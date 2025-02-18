@@ -358,7 +358,7 @@ const LoginPage = () => {
     const loginData = { email, password };
 
     try {
-      const response = await fetch("http://localhost:5000/api/login", {
+      const response = await fetch("https://flipkart-clone-itis-api.vercel.app/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
